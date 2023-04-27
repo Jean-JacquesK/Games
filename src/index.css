@@ -1,0 +1,11 @@
+:root {
+  --background: hwb(0 1% 99% / 0.068);
+  --color: #263a42;
+}
+
+[data-theme="darkTheme"] {
+  --background: #21243d;
+  --color: #dfdfdf;
+  margin: 0;
+  padding: 0;
+}

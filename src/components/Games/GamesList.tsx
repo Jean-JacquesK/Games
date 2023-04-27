@@ -11,9 +11,7 @@ export function GamesList() {
           className='form-select'
           style={{ width: "15em" }}
         >
-          <option value='' selected>
-            --Choose a plateform--
-          </option>
+          <option defaultValue=''>--Choose a plateform--</option>
           <option value='Xbox'>Xbox</option>
           <option value='Playstation'>Playstation</option>
           <option value='Android'>Android</option>
